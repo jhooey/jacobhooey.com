@@ -1,0 +1,102 @@
+/*********************************PAGE LAYOUT***********************************
+ *
+ * Layout properties that effect the entire page or 
+ * properties that can be applied to any part of the page
+ *
+ *
+ ******************************************************************************/
+
+html, body {
+  background: #333333;
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  display:none;
+}
+
+/*********************************PAGE LAYOUT***********************************
+ *
+ * This is where the layout for the entire site is defined. The containers are 
+ * listed in the order in which they should be called in the html document
+ *
+ *
+ ******************************************************************************/
+#page-container {
+  margin: auto;     /*center the entire webpage in the browser window*/
+  margin-top: 75px; /*makes sure the logo is not glued to the top of the page*/
+  width: 1024px;
+}
+#main-nav {
+  background: #333333; 
+  /*add rounded corners in case #content uses a different Background color */
+  border-bottom-left-radius: 25px 25px;     
+  -moz-border-bottom-left-radius: 5% 5%;
+  font-family: 'Alegreya SC', serif;/*use a unique google font*/
+  float: right;
+  width:284px;
+}
+#header {
+  background: orange;
+  height: 100px;
+  width: 740px;
+}
+#second-nav {
+  background: purple;
+  height: 40px;
+  width: 740px;
+}
+#social-network {
+  background: pink;
+  float: left;
+  height: 420px;
+  width: 60px;
+}
+#content {
+  background: blue;
+  height: 420px;
+  margin-left:60px;
+  width: 964px;
+}
+#footer {
+  background: #00ffcc;
+  clear: both;          /* this makes sure the footer is always by itself */
+  margin: auto;
+  margin-top:40px; /* The footer won't be in contact with the other containers*/
+  width: 800px;
+}
+
+/****************************NAVIGATION*****************************************
+ *
+ * Using align properties and <div> tags a tree like nagation menu is created, 
+ * (where the links alternate alignment from a center line)
+ *
+ *
+*******************************************************************************/
+#main-nav a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+#main-nav a:hover {
+  text-decoration: underline;
+}
+
+/*
+ * A container is used for each individual link in the navigation menu
+ * and to get the desired layout the containers have to be alternated
+ */
+.main-nav-left {
+  text-align:right;
+  width:100%;
+}
+.main-nav-left a:link {
+  margin-right: 50%; 
+}
+.main-nav-right {
+  text-align:left;
+  width:100%;
+}
+.main-nav-right a:link {
+  margin-left: 50%;  
+}
