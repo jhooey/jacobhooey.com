@@ -22,12 +22,12 @@ html, body {
  *
  *
  ******************************************************************************/
-#page-container {
+.page-container {
   margin: auto;     /*center the entire webpage in the browser window*/
   margin-top: 75px; /*makes sure the logo is not glued to the top of the page*/
   width: 1024px;
 }
-#main-nav {
+.main-nav {
   background: #333333; 
   /*add rounded corners in case #content uses a different Background color */
   border-bottom-left-radius: 25px 25px;     
@@ -36,29 +36,29 @@ html, body {
   float: right;
   width:284px;
 }
-#header {
+.header {
   background: orange;
   height: 100px;
   width: 740px;
 }
-#second-nav {
+.second-nav {
   background: purple;
   height: 40px;
   width: 740px;
 }
-#social-network {
+.social-network {
   background: pink;
   float: left;
   height: 420px;
   width: 60px;
 }
-#content {
+.content {
   background: blue;
   height: 420px;
   margin-left:60px;
   width: 964px;
 }
-#footer {
+.footer {
   background: #00ffcc;
   clear: both;          /* this makes sure the footer is always by itself */
   margin: auto;
@@ -73,12 +73,12 @@ html, body {
  *
  *
 *******************************************************************************/
-#main-nav a {
+.main-nav a {
   color: white;
   font-size: 22px;
   text-decoration: none;
 }
-#main-nav a:hover {
+.main-nav a:hover {
   text-decoration: underline;
 }
 
