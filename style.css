@@ -8,13 +8,19 @@
 
 html, body {
   background: #333333;
+  color: white;
   margin: 0;
   padding: 0;
 }
 .hidden {
   display:none;
 }
-
+.green {
+  color:#00942c;    /*used to apply green text color anywhere in the site*/
+}
+a {
+  color: white;
+}
 /*********************************PAGE LAYOUT***********************************
  *
  * This is where the layout for the entire site is defined. The containers are 
@@ -37,7 +43,7 @@ html, body {
   width:284px;
 }
 .header {
-  background: orange;
+  font-family:"Arial",sans-Serif;
   height: 100px;
   width: 740px;
 }
@@ -59,13 +65,36 @@ html, body {
   width: 964px;
 }
 .footer {
-  background: #00ffcc;
   clear: both;          /* this makes sure the footer is always by itself */
   margin: auto;
   margin-top:40px; /* The footer won't be in contact with the other containers*/
   width: 800px;
+  text-align:justify;
+  text-align-last: justify;
 }
-
+/********************************HEADER*****************************************
+ *
+ * Use a <span> tag to create both the green and white text
+ *
+ *
+*******************************************************************************/
+.header h1 {
+  font-size:3.6em;
+  line-height:90%;
+  margin: 0px;
+  padding: 0px;
+  padding-left:25px;
+}
+.header h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.header a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
 /****************************NAVIGATION*****************************************
  *
  * Using align properties and <div> tags a tree like nagation menu is created, 
@@ -74,7 +103,6 @@ html, body {
  *
 *******************************************************************************/
 .main-nav a {
-  color: white;
   font-size: 22px;
   text-decoration: none;
 }
@@ -100,3 +128,26 @@ html, body {
 .main-nav-right a:link {
   margin-left: 50%;  
 }
+
+/********************************FOOTER*****************************************
+ *
+ * used the p:after to create a set of properties that result in text-align 
+ * justify on only one line
+ *
+*******************************************************************************/
+.footer a {
+  font-size:18px;
+  Text-decoration: none;
+}
+.footer a:hover {
+  Text-decoration: underline;
+}
+
+.footer p:after {
+  content: ".";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
