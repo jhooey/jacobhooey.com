@@ -53,16 +53,14 @@ a {
   width: 740px;
 }
 .social-network {
-  background: pink;
   float: left;
   height: 420px;
-  width: 60px;
+  width: 74px;
 }
 .content {
-  background: blue;
   height: 420px;
   margin-left:60px;
-  width: 964px;
+  width: 950px;
 }
 .footer {
   clear: both;          /* this makes sure the footer is always by itself */
@@ -127,6 +125,20 @@ a {
 }
 .main-nav-right a:link {
   margin-left: 50%;  
+}
+.current-page {
+  background-image: url('http://www.bettertextures.com/files/portsmouth/portsmouth-black.jpg');
+  border-radius: 10px 10px; 
+  display: block;
+}
+/****************************SOCIAL NETWORK BUTTONS*****************************
+ * Using a separate container for each social button will make it easy to 
+ * reorganize them as needed
+ ******************************************************************************/
+
+.social-button {
+    width:100%;
+    height:70%;
 }
 
 /********************************FOOTER*****************************************
