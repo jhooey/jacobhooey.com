@@ -32,14 +32,18 @@ a {
   margin: auto;     /*center the entire webpage in the browser window*/
   margin-top: 75px; /*makes sure the logo is not glued to the top of the page*/
   width: 1024px;
+  position:relative;
 }
 .main-nav {
-  background: #333333; 
   /*add rounded corners in case #content uses a different Background color */
   border-bottom-left-radius: 25px 25px;     
   -moz-border-bottom-left-radius: 5% 5%;
   font-family: 'Alegreya SC', serif;/*use a unique google font*/
-  float: right;
+  /*float: right;
+*/  
+  position:absolute;
+ top:0;
+ right:0;
   width:284px;
 }
 .header {
@@ -47,23 +51,13 @@ a {
   height: 100px;
   width: 740px;
 }
-.second-nav {
-background: -webkit-linear-gradient(left, #1a3322, #333333);
- /* background: #023813;*/
-  height: 30px;
-  width: 740px;
-}
 .social-network {
-  float: left;
-  height: 420px;
-  width: 74px;
+  float: right;
+  padding-top:140px;
+  padding-bottom:40px;
+  width: 60px;
 }
-.content {
-    background: orange;
-  height: 420px; 
-  margin-left:60px;
-  width: 950px;
-}
+
 .footer {
   clear: both;          /* this makes sure the footer is always by itself */
   margin: auto;
@@ -132,16 +126,6 @@ background: -webkit-linear-gradient(left, #1a3322, #333333);
   background-image: url('./textures/nav-hatched.jpg');
   display: block;
 }
-/****************************SOCIAL NETWORK BUTTONS*****************************
- * Using a separate container for each social button will make it easy to 
- * reorganize them as needed
- ******************************************************************************/
-
-.social-button {
-    width:100%;
-    height:70%;
-}
-
 /********************************FOOTER*****************************************
  *
  * used the p:after to create a set of properties that result in text-align 
