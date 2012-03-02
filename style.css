@@ -48,8 +48,9 @@ a {
   width: 740px;
 }
 .second-nav {
-  background: purple;
-  height: 40px;
+background: -webkit-linear-gradient(left, #1a3322, #333333);
+ /* background: #023813;*/
+  height: 30px;
   width: 740px;
 }
 .social-network {
@@ -58,7 +59,8 @@ a {
   width: 74px;
 }
 .content {
-  height: 420px;
+    background: orange;
+  height: 420px; 
   margin-left:60px;
   width: 950px;
 }
@@ -127,8 +129,7 @@ a {
   margin-left: 50%;  
 }
 .current-page {
-  background-image: url('http://www.bettertextures.com/files/portsmouth/portsmouth-black.jpg');
-  border-radius: 10px 10px; 
+  background-image: url('./textures/nav-hatched.jpg');
   display: block;
 }
 /****************************SOCIAL NETWORK BUTTONS*****************************
