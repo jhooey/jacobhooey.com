@@ -16,7 +16,7 @@ html, body {
   display:none;
 }
 .green {
-  color:#00942c;    /*used to apply green text color anywhere in the site*/
+  color:#00942c;         /*used to apply green text color anywhere in the site*/
 }
 a {
   color: white;
@@ -29,49 +29,47 @@ a {
  *
  ******************************************************************************/
 .page-container {
-  margin: auto;     /*center the entire webpage in the browser window*/
-  margin-top: 75px; /*makes sure the logo is not glued to the top of the page*/
+  margin: auto;              /*center the entire webpage in the browser window*/
+  margin-top: 75px;  /*makes sure the logo is not glued to the top of the page*/
   width: 1024px;
   position:relative;
 }
-.main-nav {
-  /*add rounded corners in case #content uses a different Background color */
-  border-bottom-left-radius: 25px 25px;     
-  -moz-border-bottom-left-radius: 5% 5%;
-  font-family: 'Alegreya SC', serif;/*use a unique google font*/
-  /*float: right;
-*/  
-  position:absolute;
- top:0;
- right:0;
-  width:284px;
-}
+
 .header {
   font-family:"Arial",sans-Serif;
   height: 100px;
   width: 740px;
 }
+
+.main-nav {
+  font-family: 'Alegreya SC', serif;                /*use a unique google font*/
+  padding:0;
+  padding-bottom:20px;
+  position:absolute;
+  right:0;
+  top:0;
+  width:284px;
+}
+   /*Positions the social networking icons to the far right and out of the way*/
 .social-network {
   float: right;
-  padding-top:140px;
   padding-bottom:40px;
+  padding-top:140px;
   width: 60px;
 }
 
 .footer {
-  clear: both;          /* this makes sure the footer is always by itself */
-  margin: auto;
+  clear: both;              /* this makes sure the footer is always by itself */
+  margin: auto;                                  /*this will center the footer*/
   margin-top:40px; /* The footer won't be in contact with the other containers*/
-  width: 800px;
   text-align:justify;
   text-align-last: justify;
+  width: 800px;
+  
 }
 /********************************HEADER*****************************************
- *
  * Use a <span> tag to create both the green and white text
- *
- *
-*******************************************************************************/
+ ******************************************************************************/
 .header h1 {
   font-size:3.6em;
   line-height:90%;
@@ -83,6 +81,7 @@ a {
   margin: 0px;
   padding: 0px;
 }
+   /* Make sure the logo links back to the main page (without using an image) */
 .header a {
   display: block;
   height: 100%;
@@ -94,7 +93,6 @@ a {
  * Using align properties and <div> tags a tree like nagation menu is created, 
  * (where the links alternate alignment from a center line)
  *
- *
 *******************************************************************************/
 .main-nav a {
   font-size: 22px;
@@ -104,8 +102,7 @@ a {
   text-decoration: underline;
 }
 
-/*
- * A container is used for each individual link in the navigation menu
+/* A container is used for each individual link in the navigation menu
  * and to get the desired layout the containers have to be alternated
  */
 .main-nav-left {
@@ -122,8 +119,12 @@ a {
 .main-nav-right a:link {
   margin-left: 50%;  
 }
-.current-page {
-  background-image: url('./textures/nav-hatched.jpg');
+.current-page { /*create special formatting to indicate the current page*/
+  border-bottom-left-radius: 5px 5px;     /*round out the left corners */
+  border-top-left-radius: 5px 5px;    
+  -moz-border-bottom-left-radius: 5px 5px;
+  -moz-border-top-left-radius: 5px 5px;
+  background-image: url('./img/nav-hatched-reverse.jpg');
   display: block;
 }
 /********************************FOOTER*****************************************
@@ -148,3 +149,85 @@ a {
   visibility: hidden;
 }
 
+/*******************************************************************************
+ * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+ * Copyright (c) 2009 Niall Doherty
+ * This plugin available for use in all personal or commercial projects under 
+ * both MIT and GPL licenses.
+********************************************************************************/
+
+/*The original code has been severely modified from the original to better suit
+  my needs */
+
+.coda-slider-wrapper { 
+  padding: 0;
+}
+ 
+
+.coda-slider, .coda-slider .panel {
+  width: 930px;                       /* Change the width of the entire slider*/
+  float: left;               /*Align the content to the left side of the page */
+  overflow: hidden;   /*This makes it that the panels only show one at a time */
+} 
+
+.coda-slider h2 { /*Format the content headers*/
+ line-height:0px;padding:0; display:none;
+}
+	
+/* Tab nav */
+.coda-nav ul li a.current { 
+  background-image: url('./img/sec-nav-current.jpg');
+}
+	
+/* Panel padding */
+.coda-slider .panel-wrapper { 
+  padding-right:40px;
+  padding-left:20px; 
+  padding-top:0px;        
+}
+	
+/* Preloader */
+.coda-slider p.loading { 
+  padding: 20px; 
+  text-align: center 
+}
+
+/* Format the container for the navigation menu */
+.coda-nav ul {  
+      /*in case I want to put a border under the navigation menu */
+  border-bottom-width: .2em; 
+  border-bottom-style: solid; 
+  border-bottom-color: #3d3d3d;
+  margin-left: 0px;  
+  overflow: hidden; 
+  padding:0px; 
+  width: 730px;  
+  
+
+}
+	
+.coda-nav ul li { 
+  display: inline; 
+    
+}
+	
+.coda-nav ul li a {   
+  border-top-right-radius: 5px 5px;               /*create rounded top corners*/
+  border-top-left-radius: 5px 5px;
+  -moz-border-top-right-radius: 5px 5px;
+  -moz-border-top-left-radius: 5px 5px;
+  background-image: url('./img/sec-nav.jpg');       /*used for non active tabs*/
+  color: #fff;
+  display: block; 
+  float: left; 
+  font-family: 'Alegreya SC', serif;                /*use a unique google font*/   
+  margin-right: 1px;                             
+  padding: 5px 20px;            /*play with the sizes of the navigation items */
+  text-decoration: none; 
+  
+
+}
+
+/*******************************END OF******************************************
+ * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+ ******************************************************************************/
