@@ -1,25 +1,14 @@
   /****************************************************************************
-   * Title: style.css                                                         *
+   * Title: style_ie.css                                                      *
    * Author: Jacob Hooey                                                      *
    * URL: http://www.jacobhooey.com                                           *
-   * Description: This is the stylesheet for jacobhooey.com, it contains all  *
-   *              styling for the entire site. It also includes the styling   *
-   *              used by the codaSlider "widget"                             *
-   * Created: March 16th, 2012                                                *
+   * Description: This is the internet explorer stylesheet for jacobhooey.com,*
+   *              it contains all styling for the entire site. It also        *
+   *              includes changes that make the site look proper in IE       *
+   *                                                                          *
+   *              added CHANGED to elements that are IE specific              *
+   * Created: March 26th, 2012                                                *
    ****************************************************************************/
-
-  /****************************************************************************
-   * Modified: March 26th, 2012                                               *
-   *                                                                          *
-   * Added styling to make the site more readable, as well as tweaked the     *
-   * width of the social networking div to create more space between it and   *
-   * content panel.                                                           *
-   *                                                                          *
-   * Changed the top border of the content panel to Green                     *
-   *                                                                          *
-   * Added Styling for tables                                                 *
-   ****************************************************************************/
-
 
 /*********************************PAGE LAYOUT***********************************
  *
@@ -34,6 +23,7 @@ html, body {
   color: black;
   margin: 0;
   padding: 0;
+  
 }
 .hidden {
   display:none;
@@ -56,28 +46,29 @@ a {
  *
  ******************************************************************************/
 .page-container {
-  margin: auto;              /*center the entire webpage in the browser window*/
+  margin-left:100px;          /*CHANGED*/
   margin-top: 75px;  /*makes sure the logo is not glued to the top of the page*/
-  width: 1024px;
+  width: 1044px;    /*CHANGED*/
+  position:relative;
 }
 
 .header {
   font-family:"Arial",sans-Serif;
   height: 100px;
-  width: 740px;
+  width: 760px;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .main-nav {
   font-family: 'Alegreya SC', serif;                /*use a unique google font*/
   padding:0;
   padding-bottom:8px;
- /* position:absolute;*/
-  float:right;
+  position: absolute; /*CHANGED*/
   display: block;
   right:0;
   top:0;
-  width:280px;
+  width:280px; /*CHANGED*/
   background: #333333;
 }
    /*Positions the social networking icons to the far right and out of the way*/
@@ -85,23 +76,21 @@ a {
   /*put a border under the navigation menu */
   border-top-width: .2em;
   border-top-style: solid;
-  border-top-color: #00942c;
+  border-top-color: #5C5858;
   
   float: right;
   padding-bottom:40px;
   padding-top:140px;
   width: 80px;
-
-
-  
 }
 
 .footer {
   clear: both;              /* this makes sure the footer is always by itself */
-  margin: auto;                                  /*this will center the footer*/
+  margin-top:0px; /* The footer won't be in contact with the other containers*/
   text-align:justify;
   text-align-last: justify;
   width: 800px;
+  margin-left: 100px; /*CHANGED*/
   
 }
 /********************************HEADER*****************************************
@@ -159,8 +148,6 @@ a {
 .current-page { /*create special formatting to indicate the current page*/
   border-bottom-left-radius: 5px 5px;     /*round out the left corners */
   border-top-left-radius: 5px 5px;    
-  -moz-border-bottom-left-radius: 5px 5px;
-  -moz-border-top-left-radius: 5px 5px;
   background-image: url('./img/nav-hatched-reverse.jpg');
   display: block;
 }
@@ -197,12 +184,13 @@ a {
  *
 *******************************************************************************/
 
+
 /* Tables */
  
 table {
   width: 95%;
   border-collapse: collapse;
-  margin-bottom:15px;
+    margin-bottom:15px;
   margin-left:15px;
 }
  
@@ -248,6 +236,7 @@ tr:hover {
 
 
 
+
 /*******************************************************************************
  * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
  * Copyright (c) 2009 Niall Doherty
@@ -261,30 +250,26 @@ tr:hover {
   
 .coda-slider-wrapper { 
   float:left;
-  width: 740px;
+  width: 760px;
 }
 
 .panel {
         /*put a border under the navigation menu */
   border-top-width: .2em;
   border-top-style: solid;
-  border-top-color: #00942c;
+  border-top-color: #5C5858;
   background: #CDCDCD;
   text-align:justify;
   
-    border-bottom-right-radius: 15px 10px;               /*create rounded top corners*/
-  border-bottom-left-radius: 15px 10px;
-  -moz-border-bottom-right-radius: 15px 10px;
-  -moz-border-bottom-left-radius: 15px 10px;
-  
+   border-bottom-left-radius: 5px 5px;     /*round out the left corners */
+   border-bottom-right-radius: 5px 5px;     /*round out the left corners */
 }
  
 .coda-slider, .coda-slider .panel {
-  width:944px;                     /* Change the width of the entire slider*/
+  width:934px;    /*CHANGED*/                 /* Change the width of the entire slider*/
   float:left;
   overflow: hidden;   /*This makes it that the panels only show one at a time */
   padding-bottom:0px;
-
 } 
 .coda-slider h2 { /*Format the content headers*/
  line-height:0px;padding:0; display:none;
@@ -296,10 +281,10 @@ tr:hover {
 }
   
 /* Panel padding */
-.coda-slider .panel-wrapper { 
+.coda-slider .panel-wrapper {
   padding-right:20px;
-  padding-left:20px; 
-  padding-top:0px; 
+  padding-left:20px;
+  padding-top:0px;
   margin-top:0px;
   padding-bottom:20px;
   float: left;
@@ -322,7 +307,8 @@ tr:hover {
 .coda-nav ul {  
   margin-left: 0px;  
   padding:0px; 
-  width: 730px;  
+  width: 750px;  
+  float:left;  /*CHANGED*/
 }
   
 .coda-nav ul li { 
@@ -333,8 +319,6 @@ tr:hover {
 .coda-nav ul li a {   
   border-top-right-radius: 5px 5px;               /*create rounded top corners*/
   border-top-left-radius: 5px 5px;
-  -moz-border-top-right-radius: 5px 5px;
-  -moz-border-top-left-radius: 5px 5px;
   background-image: url('./img/sec-nav.jpg');       /*used for non active tabs*/
   color: #fff;
   display: block; 

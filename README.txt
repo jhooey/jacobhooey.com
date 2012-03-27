@@ -1,22 +1,10 @@
-When creating the layout the <div> tag order is
 
-<div id="page-container">
-    <div id="main-nav">
-        Main Navigation
-    </div>
-    <div id="header">
-        Header
-    </div>
-    <div id="second-nav">
-        Secondary Navigation
-    </div>
-    <div id="social-network">
-        Social Network
-    </div>
-    <div id="content">
-        Content
-    </div>
-    <div id="footer">
-        Footer
-    </div>
-</div>
+
+
+Special thanks to :
+
+Niall Doherty for his codaSlider, which I use to organize the websites content on a page. 
+Article Location: "http://www.ndoherty.biz/tag/coda-slider/"
+
+Matt Doyle for his article "Build a CMS in an Afternoon with PHP and MySQL" for creating the code I used and modified to integrate a cms into my web site. 
+Article Location:"http://www.elated.com/articles/cms-in-an-afternoon-php-mysql/"
