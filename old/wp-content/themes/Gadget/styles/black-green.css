@@ -1,0 +1,124 @@
+body {
+	background: url(black-green/bg-metal.jpg) top center repeat-x #898989;
+}
+
+/* Header
+=================================*/
+
+#header #search {
+	background: url(black-green/search-icon.gif) top left no-repeat #707070;
+	background-position: 6px 3px;
+}
+
+
+/* Main nav dropdown menu
+=================================*/
+
+#main-nav li ul {
+	border: 4px solid #649f5f;
+	border-bottom: 3px solid #649f5f;
+	border-top: none;
+	background: #7cc576;
+}
+	
+#main-nav li ul ul {
+	border-top: 4px solid #649f5f;
+}
+
+#main-nav li li {
+	background: #7cc576;
+}
+
+#main-nav li:hover,
+#main-nav li.sfHover,
+#main-nav a:focus,
+#main-nav a:hover,
+#main-nav a:active,
+#main-nav li:hover a {
+	color: #7cc576;
+}
+
+#main-nav li:hover li a {
+	border-bottom: 1px solid #649f5f;
+}
+
+#main-nav li a.sf-with-ul:hover,
+#main-nav li:hover a.sf-with-ul {
+	background: url(black-green/nav-arrow-down-on.gif) top right no-repeat;
+}
+
+#main-nav li:hover li a.sf-with-ul {
+	background: url(black-green/nav-arrow-right.gif) top right no-repeat;
+}
+
+/* Content
+=================================*/
+
+#container {
+	background: url(black-green/bg-page.png) top center repeat-y;
+}
+
+p.read-more a {
+	background: url(../images/read-more-arrow.png) top left no-repeat #7cc576;
+	background-position: 102px 10px;
+}
+
+.wp-pagenavi span.current {
+	background: #7cc576;
+	border: 1px solid #7cc576;
+}
+
+/* Entry Content
+=================================*/
+
+.entry-meta-before #comments-top a {
+	color: #7cc576;
+}
+
+.post .entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6  {
+	color: #7cc576;
+}
+
+.entry-content ul li {
+	background: url(black-green/arrow-bullet.gif) top left no-repeat;
+	background-position: 0 7px;
+}
+
+.entry-content blockquote {
+	border-left: 4px solid #7cc576;
+}
+
+/* Comments
+=================================*/
+
+.comment-body .reply a {
+	color: #7cc576;
+}
+
+#commentform input#submit {
+	background: #7cc576;
+}
+
+/* Sidebar
+=================================*/
+
+.box h4 {
+	background: url(black-green/box-header-line.gif) center left repeat-x;
+	color: #7cc576;
+}
+
+.box.widget_twitter h4 a {
+	color: #7cc576;
+}
+
+/* Footer
+=================================*/
+
+#credit {
+	background: url(black-green/logo-themejam.gif) top right no-repeat;
+}

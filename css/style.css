@@ -75,7 +75,8 @@
 html, body {
   background: #333333;
   color: black;
-  font-family:"Arial",sans-Serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
@@ -459,7 +460,8 @@ tr:hover {
   border-top-width: .2em;
   border-top-style: solid;
   border-top-color: #00942c;
-  background: #CDCDCD;
+  background: #FFF;
+  /*background: #CDCDCD;*/
   text-align:justify;
 }
 
@@ -471,12 +473,10 @@ tr:hover {
 }
 
 .panel a {
-  color: #004514;
- /* font-weight: bold;*/
+  color: #00760E;
 }
 .panel a:hover {
-  color: #004514;
-  font-weight: bold;
+  color: #00922a;
 }
  
 .coda-slider, .coda-slider .panel {
@@ -519,6 +519,7 @@ tr:hover {
 .coda-nav {
   margin:0px;
   padding:0px;
+  
 }
 
 /* Format the container for the navigation menu */
@@ -526,10 +527,13 @@ tr:hover {
   margin-left: 0px;   
   padding:0px; 
   width: 740px;  
+	font-size:20px;
+	
 }
   
 .coda-nav ul li { 
   display: inline; 
+	
     
 }
   

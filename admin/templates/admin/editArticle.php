@@ -1,8 +1,8 @@
 <?php include "templates/include/header.php" ?>
  
       <div id="adminHeader">
-        <h2>Widget News Admin</h2>
-        <p>You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
+		<h2>JacobHooey.com Admin Panel</h2>
+        <p align="right">You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
       </div>
  
       <h1><?php echo $results['pageTitle']?></h1>
@@ -28,14 +28,14 @@
             Resume <input type="radio" name="nav_id" id="nav_id" value="resume" <?php if ($results['article']->nav_id == "resume") echo checked ?> />
             Artwork<input type="radio" name="nav_id" id="nav_id" value="artwork" <?php if ($results['article']->nav_id == "artwork") echo checked ?> />
             Thesis<input type="radio" name="nav_id" id="nav_id" value="thesis" <?php if ($results['article']->nav_id == "thesis") echo checked ?> />
-            Programming<input type="radio" name="nav_id" id="nav_id" value="programming" <?php if ($results['article']->nav_id == "programming") echo checked ?> />
+            Projects<input type="radio" name="nav_id" id="nav_id" value="projects" <?php if ($results['article']->nav_id == "projects") echo checked ?> />
             Contact info<input type="radio" name="nav_id" id="nav_id" value="contact" <?php if ($results['article']->nav_id == "contact") echo checked ?> />
           </li>
           
           <!--content of the article-->
           <li>
-            <label for="panel_content">Content</label>
-            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="100000" style="height: 30em;"><?php echo htmlspecialchars( $results['article']->panel_content )?></textarea>
+            <label for="panel_content">Content</label><br /><br /><br />
+            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;"><?php echo htmlspecialchars( $results['article']->panel_content )?></textarea>
           </li>
           
         </ul>
@@ -53,3 +53,9 @@
 <?php } ?>
  
 <?php include "templates/include/footer.php" ?>
+
+<?php if(get_magic_quotes_gpc())
+	echo "Magic quotes are enabled";
+else
+	echo "Magic quotes are disabled";?>
+	

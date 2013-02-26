@@ -1,0 +1,15 @@
+[14-Jan-2013 02:36:21 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/footer.php on line 10
+[14-Jan-2013 23:47:43 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments-popup.php on line 10
+[17-Jan-2013 03:32:21 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments.php on line 10
+[19-Jan-2013 02:42:25 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments-popup.php on line 10
+[21-Jan-2013 00:21:13 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments.php on line 10
+[28-Jan-2013 17:21:05 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments-popup.php on line 10
+[29-Jan-2013 20:45:34 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/sidebar.php on line 10
+[02-Feb-2013 01:13:41 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/comments.php on line 10
+[03-Feb-2013 03:12:04 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/footer.php on line 10
+[10-Feb-2013 14:57:55 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/footer.php on line 10
+[15-Feb-2013 02:33:53 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/header.php on line 10
+[16-Feb-2013 11:52:21 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/sidebar.php on line 10
+[20-Feb-2013 13:43:49 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/sidebar.php on line 10
+[20-Feb-2013 15:01:53 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/header.php on line 10
+[23-Feb-2013 03:27:16 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/theme-compat/header.php on line 10

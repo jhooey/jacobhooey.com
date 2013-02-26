@@ -1,0 +1,195 @@
+/* clearfix 
+=================================*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+/* end clearfix */
+
+
+#poststuff h2 {
+	background: url(../images/tj-options-panel/themejam-icon.gif) top left no-repeat;
+	background-position: 0 3px;
+	padding: 0 0 0 47px;
+	text-shadow: 1px 1px 2px #ccc;
+}
+	
+.postbox.options-nav {
+	padding: .7em 0;
+}
+
+.postbox.options-nav a {
+	text-decoration: none;
+}
+
+.postbox.options-nav ul {
+	padding: 0 1.5em;
+}
+
+.postbox.options-nav ul li {
+	float: left;
+	padding: 0 15px 0 0;
+	margin: 0 15px 0 0;
+	line-height: 1em;
+	font-weight: bold;
+	border-right: 1px solid #c6c6c6;
+}
+
+.postbox.options-nav ul li.last {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.postbox.options-nav ul#nav {
+	float: left;
+}
+
+.postbox.options-nav ul#themejam {
+	float: right;
+	font-size: .856em;
+	padding: 1px 0 0 0;
+	margin: 0 15px 0 0;
+}
+
+.postbox.options-nav ul#themejam li {
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+.postbox.options-nav ul#themejam li a {
+	text-decoration: none;
+	color: #606060;
+}
+
+.postbox.options-nav ul#themejam li a:hover {
+	color: #d54e21;
+}
+
+.postbox.options-nav ul#themejam li#support {
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+}
+
+
+#poststuff .inside {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	line-height: 1.5em;
+}
+
+.option {
+	padding: 2em 1em;
+	border-bottom: 1px solid #eee;
+}
+
+.option.last {
+	border: none;
+	margin: 0;
+}
+
+.sub-header {
+	padding: 1em 1em .5em 1em;
+	border-bottom: 1px dotted #CCCCCC;
+	background: #ebf4fb;
+}
+
+.sub-header h4 {
+	padding: 0 0 0 10px;
+	margin: 0 0 .3em 0;
+	font-size: 1.2em;
+}
+
+#poststuff .inside .sub-header p {
+	padding: 0 0 0 10px;
+	width: 700px;
+	margin: 0 0 .7em 0;
+}
+
+.option .option-title {
+	float: left;
+	width: 175px;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 4px 15px 0 10px;
+} 
+
+.option .option-input {
+	margin: 0 25px 0 200px;
+}
+
+.option .option-input input,
+.option .option-input select {
+	width: 400px;
+	margin: 0 0 .5em 0;
+}
+
+.option .option-input textarea {
+	width: 100%;
+	height: 125px;
+}
+
+.option .option-input input:focus,
+.option .option-input textarea:focus,
+.option .option-input select:focus {
+	background: #FFFEEB;
+	border-color:#CCCCCC;
+}
+
+.option.checkbox .option-input input {
+	width: 15px;
+	float: left;
+	margin: 1px 15px 0 0;
+}
+
+.option.checkbox .option-title {
+	padding: 0 15px 0 10px;
+}
+
+.option .option-input .description {
+	color: #888;
+	line-height: 1.5em;
+	width: 500px;
+}
+
+.option .option-input .description strong {
+	color: #333333;
+}
+
+.option.colorpicker-wrap .colorselector {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+
+.actions {
+	margin: 0 0 2em 0;
+}
+
+.actions .action {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.actions .action.back-to-top {
+	padding: 3px 0 0 0;
+}

@@ -1,0 +1,140 @@
+body {
+	background: url(silver-blue/bg-metal.jpg) top center repeat-x #e2e2e2;
+}
+
+/* Header
+=================================*/
+
+#header #search {
+	background: url(silver-blue/search-icon.gif) top left no-repeat #707070;
+	background-position: 6px 3px;
+}
+
+
+/* Main nav dropdown menu
+=================================*/
+
+#main-nav li {
+	text-shadow: 1px 1px 1px #666;
+}
+
+#main-nav li ul {
+	border: 4px solid #005d80;
+	border-bottom: 3px solid #005d80;
+	border-top: none;
+	background: #0076a3;
+}
+	
+#main-nav li ul ul {
+	border-top: 4px solid #005d80;
+}
+
+#main-nav li li {
+	background: #0076a3;
+}
+
+#main-nav li:hover,
+#main-nav li.sfHover,
+#main-nav a:focus,
+#main-nav a:hover,
+#main-nav a:active,
+#main-nav li:hover a {
+	color: #0076a3;
+}
+
+#main-nav li:hover li a {
+	border-bottom: 1px solid #005d80;
+	color: #fff;
+}
+
+#main-nav li a.sf-with-ul:hover,
+#main-nav li:hover a.sf-with-ul {
+	background: url(silver-blue/nav-arrow-down-on.gif) top right no-repeat;
+}
+
+#main-nav li:hover li a.sf-with-ul {
+	background: url(silver-blue/nav-arrow-right.gif) top right no-repeat;
+}
+
+/* Content
+=================================*/
+
+#container {
+	background: url(silver-blue/bg-page.png) top center repeat-y;
+	border-top: 1px solid #939393;
+	margin: 0 auto;
+	padding: 20px 19px;
+}
+
+p.read-more a {
+	background: url(../images/read-more-arrow.png) top left no-repeat #0076a3;
+	background-position: 102px 10px;
+}
+
+.wp-pagenavi span.current {
+	background: #0076a3;
+	border: 1px solid #0076a3;
+}
+
+/* Entry Content
+=================================*/
+
+.entry-meta-before #comments-top a {
+	color: #0076a3;
+}
+
+.post .entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6  {
+	color: #0076a3;
+}
+
+.entry-content ul li {
+	background: url(silver-blue/arrow-bullet.gif) top left no-repeat;
+	background-position: 0 7px;
+}
+
+.entry-content blockquote {
+	border-left: 4px solid #0076a3;
+}
+
+/* Comments
+=================================*/
+
+.comment-body .reply a {
+	color: #0076a3;
+}
+
+#commentform input#submit {
+	background: #0076a3;
+}
+
+/* Sidebar
+=================================*/
+
+.box h4 {
+	background: url(silver-blue/box-header-line.gif) center left repeat-x;
+	color: #0076a3;
+}
+
+.box.widget_twitter h4 a {
+	color: #0076a3;
+}
+
+/* Footer
+=================================*/
+
+#footer {
+	background: none;
+	margin: 0 auto;
+	border-top: 1px solid #939393;
+	padding-left: 18px;
+	padding-right: 17px;
+}
+
+#credit {
+	background: url(silver-blue/logo-themejam.gif) top right no-repeat;
+}

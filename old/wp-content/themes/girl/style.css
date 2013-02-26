@@ -1,0 +1,146 @@
+/*
+Theme Name: girl
+Theme URI: http://themespack.com/girl-wordpress-theme.html
+Description: Wordpress Girl Theme  by <a href="http://themespack.com/">Wordpress Themes</a>.
+Author: ThemesPack 
+Author URI: http://themespack.com/
+Tags: black, custom header, fixed width, two columns,right column, widgets, options page, Adsense
+Version: 3.1
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+*/
+
+
+/* Body */
+body {font: 10pt verdana, arial, helvetica, sans-serif;color: #333333;background: #3f3f3f ;margin: 0px;padding: 0px;}
+#main {margin: 0px auto;width: 1000px;background: #000000;}
+
+/* Header */
+
+#header {background: #000000 url(images/header.jpg) no-repeat;height: 314px;position: relative;}#logo {position: relative;padding: 10px 0px 0px 20px;height: 60px;}
+#logo .description{position: absolute;	left: 25px;bottom:3px;color: #111111;font-size: 14px;}
+
+/* Menu */
+
+#menu {list-style: none;margin: 0px;position: absolute;right: 10px;top: 10px;}
+#menu li {float: left;margin-left: 10px;}
+#menu .current_page_item a, #menu .current_page_item a:visited{color: #000000;text-decoration: none;}
+#menu .page_item a{color: #000000;text-decoration: none;padding: 3px 10px;font:11pt verdana,Century gothic,Arial, Helvetica, sans-serif;display: block;}
+#menu .page_item a:hover {color: #555555;}
+
+/* Links */
+
+h1 {margin:0px;height: 40px;font: bold 22pt "Lucida Sans", arial;color: #000000;}
+h1 a, h1 a:visited{color: #000000;text-decoration: none;}
+h1 a:hover{color: #fe5e00;text-decoration: none;}
+h2 {color: #ff5a00;margin: 0px 0px 0px;border-bottom:none;letter-spacing: -1px;font:20pt "Century gothic",Lucida Sans, arial;padding:0px 0px 0px 10px;}
+h2 a, h2 a:visited {color: #ff5a00;text-decoration: none;}
+h2 a:hover {color: #8ac97b;text-decoration: none;}
+h3 {color: #555555;margin: 0px 0px 2px;letter-spacing: -1px;font:18pt "Century gothic",Lucida Sans, arial;padding-bottom: 3px;}
+h4 {color: #777777;margin: 0px 0px 2px;letter-spacing: -1px;font:16pt "Century gothic",Lucida Sans, arial;padding-bottom: 3px;}
+a,a:visited {color: #7acd23;text-decoration: none;}
+a:hover {color: #f24b0f;text-decoration: underline;}
+/* Content */ 
+
+#content {padding: 0px 0px 30px 20px;float: left;width: 725px;overflow: hidden;line-height: 16px;text-align: justify;font: 10pt verdana, arial, helvetica, sans-serif;color: #d1d1d1;}
+.post {clear:both;padding-top: 15px;}
+.title {float: left;margin-left: 0px;width: 630px;}
+.post-date {width: 48px;height: 55px;float:left;background: url(images/date.png) no-repeat;}
+.post-month {font-size: 11px;text-transform: uppercase;color: #000000;text-align: center;display:block;line-height: 11px;padding-top: 5px;margin-left: -3px;}
+.post-day {font-size: 20px;text-transform: uppercase;color: #ffffff;text-align: center;display:block;line-height: 18px;padding-top: 10px;margin-left: -3px;}
+.entry {clear: both;padding-top: 5px;}
+.comments {display: block;font:10px;float: right;margin-bottom: 10px;padding: 4px 0px 4px 5px; color: #979797;background:#222;border:1px  solid#111111; width:100%}
+.author {display: block;margin: 0;padding:0px 0px 4px 10px;font-weight: normal;color: #dee9ee;}
+.navigation {clear: both;padding: 10px 0px;}
+.navigation a, .navigation a:visited {color: #ffffff;}
+.previous-entries a {float: left;padding-left: 1pt;}
+.next-entries a {float: right;padding-right: 1pt;}
+
+/* Sidebar */
+
+#sidebar {float: right;padding: 0px 10px 20px 0px;width: 200px;color: #666666;overflow: hidden;}
+#sidebar h2, #sidebar .sidebartitle{font: 12pt  helvetica, sans-serif;color: #7acd23;background:#262626 ;margin: 20px 0px 0px 0px;padding:5px 0px 3px 10px;margin-bottom:2px;letter-spacing: 0px;}
+#sidebar a, #sidebar a:visited{display: block;padding: 7px 0;width: 200px;font: 9pt "verdana", arial, helvetica, sans-serif;text-decoration: none;text-indent: 10px;color: #fe5e00;background:#111111;}
+#sidebar a:hover{color: #000000 ;text-decoration: none;padding: 7px 0px;background:#000000;color:#3daaeb;}
+#sidebar ul {margin: 0;padding: 0;}
+#sidebar ul li {list-style: none;margin: 0;padding: 0;border: none;}
+#sidebar ul li ul {padding: 0;margin: 0;background:#000000}
+#sidebar ul li ul li{padding: 0px 0 0px 0px;background:#000000;}
+#sidebar ul li ul li ul li{
+padding: 1px 0 1px 10px;border: none;}
+ul.sidecol li{padding-left: 0px !important;}
+ul.sidecol li,{padding-left: 0px ;}
+li.widget_calendar td {padding: 1px 7px;}
+.textwidget {padding-top: 5px;}
+
+/* Comments */
+
+#comments, #respond {padding: 10px 0 5px 0;clear: both;}
+.cleft { float:left; width:60px; border:3px double #dadada;margin:0px 10px 10px 0px; }
+.commentlist {margin: 10px 0px;padding-left: 20px;line-height: 130%;}
+.commentlist li{padding: 5px 10px;}
+.commentlist cite {font-size: 14px;color: #fe5e00;}
+.commentlist cite a, .commentlist cite a:visited {color: #fe5e00;}
+.commentlist small {margin-bottom: 5px;display: block;font-size: 87%;}
+#commentform {margin-top: 10px;font: 10px;}
+#commentform p {padding: 6px 0px;margin: 0px;}
+#commentform label{color: #888888;font-size: 77%;}
+#commentform input{width: 200px;background:#ffffff;border: 1px solid #97a9ae;padding: 3px;margin-top: 3px;}
+#commentform textarea{width: 570px;height: 115px;background:#ffffff;border: 1px solid #97a9ae;padding: 2px;margin-top: 3px;}
+#commentform textarea:focus, #commentform input[type="text"]:focus {background: #ffffff;}
+#commentform #submit{background: url(images/post.png) no-repeat;font: 14px ;color: #000000;border:1px solid #000;float:left;width: 147px;height: 30px;cursor: pointer;}
+
+/* Search */
+
+#searchform {margin: 15px 0 0;}
+#searchform br {display: none;}
+#searchform #s {border:1px solid #618806;width: 140px;height: 20px;padding: 4px 5px 0px 5px;border: 1px solid #bed881;background: #fff;margin-right: 2px;color: #000000;font-weight: normal;}
+#searchform input {background:url(images/search.png);border:1px solid #000000;width: 37px;height: 28px;font:22px ;color: #000000;vertical-align: middle;}
+
+/* Footer */
+
+#footer {clear: both;border-top: 1px solid #fe5c01;background: #000000;padding:10px 10px 0px 10px;height: 20px;font-size: 8pt;color: #ffffff;}
+#footer a {text-decoration: none;font-size: 10pt;color: #fa8509;}
+#footer a:hover {color: #ffffff;}
+.center {text-align: center;}
+
+/* Fix floats */
+
+img {border: none;}
+form {margin:0px;padding:0px;}
+p {padding: 0px 0px 15px;margin: 0px;}
+img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+img.alignleft, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}
+.alignright {float: right;}
+img.alignright, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;}
+.aligncenter {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+.alignright {float: right;}
+
+/* image caption */
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}

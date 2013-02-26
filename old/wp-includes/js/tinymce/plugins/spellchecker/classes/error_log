@@ -1,0 +1,10 @@
+[28-Jan-2013 19:00:48 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[28-Jan-2013 20:36:06 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[30-Jan-2013 15:25:33 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[01-Feb-2013 20:40:52 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[02-Feb-2013 00:04:13 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[02-Feb-2013 03:24:00 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[05-Feb-2013 14:48:12 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[07-Feb-2013 15:40:21 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[07-Feb-2013 18:05:08 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[10-Feb-2013 22:06:20 America/Denver] PHP Fatal error:  Class 'SpellChecker' not found in /home6/jacobhoo/public_html/old/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10

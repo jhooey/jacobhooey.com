@@ -1,0 +1,109 @@
+[26-Dec-2012 21:00:53 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-functions.php on line 1828
+[26-Dec-2012 21:30:26 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/general-template.php on line 1284
+[29-Dec-2012 22:04:28 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-styles.php on line 19
+[30-Dec-2012 22:16:16 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-styles.php on line 19
+[01-Jan-2013 22:21:17 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/class-snoopy.php on line 6
+[02-Jan-2013 21:38:54 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/general-template.php on line 1284
+[02-Jan-2013 22:04:50 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/user.php on line 72
+[03-Jan-2013 19:54:55 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/default-filters.php on line 17
+[03-Jan-2013 21:15:13 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-functions.php on line 1828
+[03-Jan-2013 22:11:37 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/user.php on line 72
+[04-Jan-2013 09:18:52 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home6/jacobhoo/public_html/old/wp-includes/default-widgets.php on line 14
+[04-Jan-2013 10:02:55 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/shortcodes.php on line 334
+[04-Jan-2013 18:37:19 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/category-template.php on line 776
+[04-Jan-2013 19:10:36 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/class-snoopy.php on line 6
+[05-Jan-2013 18:03:55 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-filters.php on line 17
+[06-Jan-2013 07:02:28 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home6/jacobhoo/public_html/old/wp-includes/update.php on line 400
+[06-Jan-2013 07:52:20 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/taxonomy.php on line 100
+[06-Jan-2013 19:20:16 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/user.php on line 72
+[07-Jan-2013 09:12:09 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[07-Jan-2013 09:12:09 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[07-Jan-2013 09:12:09 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[08-Jan-2013 13:33:48 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home6/jacobhoo/public_html/old/wp-includes/template-loader.php on line 10
+[09-Jan-2013 00:57:31 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/default-filters.php on line 17
+[09-Jan-2013 01:10:33 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/general-template.php on line 1284
+[09-Jan-2013 02:36:18 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-functions.php on line 1828
+[09-Jan-2013 04:03:48 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration-functions.php on line 7
+[09-Jan-2013 22:37:27 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home6/jacobhoo/public_html/old/wp-includes/update.php on line 400
+[09-Jan-2013 23:05:24 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home6/jacobhoo/public_html/old/wp-includes/template-loader.php on line 10
+[09-Jan-2013 23:51:06 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/shortcodes.php on line 334
+[10-Jan-2013 00:33:28 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration.php on line 7
+[10-Jan-2013 00:46:43 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/nav-menu-template.php on line 17
+[10-Jan-2013 01:31:25 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-constants.php on line 138
+[10-Jan-2013 04:23:03 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home6/jacobhoo/public_html/old/wp-includes/default-widgets.php on line 14
+[10-Jan-2013 04:37:06 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/comment-template.php on line 1218
+[10-Jan-2013 05:06:25 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-scripts.php on line 19
+[10-Jan-2013 19:22:00 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/theme.php on line 1170
+[10-Jan-2013 21:45:49 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/user.php on line 72
+[10-Jan-2013 22:41:38 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-filters.php on line 17
+[10-Jan-2013 23:09:44 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home6/jacobhoo/public_html/old/wp-includes/media.php on line 707
+[11-Jan-2013 00:21:27 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home6/jacobhoo/public_html/old/wp-includes/vars.php on line 20
+[11-Jan-2013 02:48:08 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-styles.php on line 19
+[11-Jan-2013 03:15:51 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/class-snoopy.php on line 6
+[11-Jan-2013 05:10:38 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/author-template.php on line 399
+[12-Jan-2013 02:07:00 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[12-Jan-2013 02:07:00 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[12-Jan-2013 02:07:00 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[12-Jan-2013 05:12:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/canonical.php on line 452
+[12-Jan-2013 23:52:11 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration-functions.php on line 7
+[13-Jan-2013 00:19:11 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/theme.php on line 1170
+[13-Jan-2013 02:28:45 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/default-filters.php on line 17
+[13-Jan-2013 04:11:27 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/category-template.php on line 776
+[13-Jan-2013 04:23:39 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-xmlrpc-server.php on line 22
+[14-Jan-2013 03:17:26 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home6/jacobhoo/public_html/old/wp-includes/template-loader.php on line 10
+[14-Jan-2013 03:46:53 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[14-Jan-2013 03:46:53 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[14-Jan-2013 03:46:53 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[14-Jan-2013 04:45:36 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-constants.php on line 138
+[15-Jan-2013 00:08:58 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home6/jacobhoo/public_html/old/wp-includes/vars.php on line 20
+[15-Jan-2013 00:54:37 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-styles.php on line 19
+[15-Jan-2013 01:16:58 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-filters.php on line 17
+[15-Jan-2013 19:20:29 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-scripts.php on line 19
+[15-Jan-2013 20:34:32 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/shortcodes.php on line 334
+[15-Jan-2013 21:46:10 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/post-template.php on line 974
+[15-Jan-2013 23:11:14 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/nav-menu-template.php on line 17
+[15-Jan-2013 23:41:13 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[15-Jan-2013 23:41:13 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[15-Jan-2013 23:41:13 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[16-Jan-2013 04:55:26 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/admin-bar.php on line 39
+[17-Jan-2013 01:11:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/theme.php on line 1170
+[17-Jan-2013 01:24:18 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration-functions.php on line 7
+[17-Jan-2013 01:54:39 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home6/jacobhoo/public_html/old/wp-includes/media.php on line 707
+[17-Jan-2013 02:51:37 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-xmlrpc-server.php on line 22
+[17-Jan-2013 03:04:23 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/category-template.php on line 776
+[17-Jan-2013 04:33:05 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/author-template.php on line 399
+[17-Jan-2013 13:02:07 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home6/jacobhoo/public_html/old/wp-includes/class.wp-scripts.php on line 19
+[17-Jan-2013 14:46:58 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home6/jacobhoo/public_html/old/wp-includes/default-widgets.php on line 14
+[17-Jan-2013 19:35:28 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-filters.php on line 17
+[18-Jan-2013 18:20:22 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/nav-menu-template.php on line 17
+[19-Jan-2013 04:24:35 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home6/jacobhoo/public_html/old/wp-includes/vars.php on line 20
+[19-Jan-2013 18:38:45 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/nav-menu-template.php on line 17
+[19-Jan-2013 19:52:20 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration.php on line 7
+[19-Jan-2013 20:34:57 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home6/jacobhoo/public_html/old/wp-includes/update.php on line 400
+[20-Jan-2013 03:02:10 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/ms-default-constants.php on line 138
+[20-Jan-2013 03:45:24 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/comment-template.php on line 1218
+[20-Jan-2013 21:31:22 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/author-template.php on line 399
+[21-Jan-2013 02:59:26 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-xmlrpc-server.php on line 22
+[21-Jan-2013 04:39:50 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home6/jacobhoo/public_html/old/wp-includes/media.php on line 707
+[30-Jan-2013 00:21:32 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/post-template.php on line 974
+[31-Jan-2013 07:38:11 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/canonical.php on line 452
+[31-Jan-2013 18:54:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/kses.php on line 1361
+[03-Feb-2013 00:20:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/kses.php on line 1361
+[03-Feb-2013 01:17:56 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[03-Feb-2013 01:17:56 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[03-Feb-2013 01:17:56 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/script-loader.php on line 25
+[04-Feb-2013 15:16:11 America/Denver] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[04-Feb-2013 15:16:11 America/Denver] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[04-Feb-2013 15:16:11 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/php/53/usr/lib64:/usr/php/53/usr/share/pear') in /home6/jacobhoo/public_html/old/wp-includes/ms-settings.php on line 14
+[04-Feb-2013 16:12:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/canonical.php on line 452
+[04-Feb-2013 17:10:40 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-http-ixr-client.php on line 9
+[07-Feb-2013 00:30:12 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home6/jacobhoo/public_html/old/wp-includes/registration.php on line 7
+[07-Feb-2013 01:29:13 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/kses.php on line 1361
+[08-Feb-2013 23:35:04 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/post-template.php on line 974
+[11-Feb-2013 02:57:02 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home6/jacobhoo/public_html/old/wp-includes/comment-template.php on line 1218
+[13-Feb-2013 01:04:40 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/taxonomy.php on line 100
+[13-Feb-2013 03:15:05 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-http-ixr-client.php on line 9
+[16-Feb-2013 15:12:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/admin-bar.php on line 39
+[16-Feb-2013 18:47:21 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home6/jacobhoo/public_html/old/wp-includes/class-wp-http-ixr-client.php on line 9
+[17-Feb-2013 03:09:23 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/taxonomy.php on line 100
+[20-Feb-2013 19:11:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home6/jacobhoo/public_html/old/wp-includes/admin-bar.php on line 39
