@@ -1,5 +1,0 @@
-Welcome to the addphp Branch!
-
-I have branched my project here to preserve what I have already done, and so I don't completely destroy it as I  learn php.
-
-Well here I go. Wish me luck!
