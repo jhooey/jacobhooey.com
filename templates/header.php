@@ -13,12 +13,12 @@
 <!-- Begin Stylesheets -->
   
   <!--[if IE]>
-  <link rel="stylesheet" type="text/css" href="style_ie.css" />
+<link rel="stylesheet" type="text/css" href="./css/style_ie.css" />
 <![endif]-->
   
   
 <!--[if !IE]><!-->  
-<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
  <!--<![endif]--> 
   
   
