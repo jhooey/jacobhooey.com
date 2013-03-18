@@ -24,18 +24,18 @@
           <!--This Determines which section an article will be displayed in -->
           <li>
             <label for="nav_id"><strong>Navigation</strong></label><br /><br />
-            Home<input type="radio" name="nav_id" id="nav_id" value="home" <?php if ($results['article']->nav_id == "home") echo checked ?> />
-            Resume <input type="radio" name="nav_id" id="nav_id" value="resume" <?php if ($results['article']->nav_id == "resume") echo checked ?> />
-            Artwork<input type="radio" name="nav_id" id="nav_id" value="artwork" <?php if ($results['article']->nav_id == "artwork") echo checked ?> />
-            Thesis<input type="radio" name="nav_id" id="nav_id" value="thesis" <?php if ($results['article']->nav_id == "thesis") echo checked ?> />
-            Projects<input type="radio" name="nav_id" id="nav_id" value="projects" <?php if ($results['article']->nav_id == "projects") echo checked ?> />
-            Contact info<input type="radio" name="nav_id" id="nav_id" value="contact" <?php if ($results['article']->nav_id == "contact") echo checked ?> />
+            Home<input type="radio" name="nav_id" id="nav_id" value="home" <?php if ($results['article']->nav_id == "home") echo 'checked="checked"' ?> />
+            Resume <input type="radio" name="nav_id" id="nav_id" value="resume" <?php if ($results['article']->nav_id == "resume") echo 'checked="checked"' ?> />
+            Artwork<input type="radio" name="nav_id" id="nav_id" value="artwork" <?php if ($results['article']->nav_id == "artwork") echo 'checked="checked"' ?> />
+            Thesis<input type="radio" name="nav_id" id="nav_id" value="thesis" <?php if ($results['article']->nav_id == "thesis") echo 'checked="checked"' ?> />
+            Projects<input type="radio" name="nav_id" id="nav_id" value="projects" <?php if ($results['article']->nav_id == "projects") echo 'checked="checked"' ?> />
+            Contact info<input type="radio" name="nav_id" id="nav_id" value="contact" <?php if ($results['article']->nav_id == "contact") echo 'checked="checked"' ?> />
           </li>
           
           <!--content of the article-->
           <li>
             <label for="panel_content">Content</label><br /><br /><br />
-            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;"><?php echo htmlspecialchars( $results['article']->panel_content )?></textarea>
+            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;"><?php echo htmlspecialchars_decode( $results['article']->panel_content)?></textarea>
           </li>
           
         </ul>
