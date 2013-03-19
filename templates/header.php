@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html itemscope itemtype="http://schema.org/">
+<html>
 <head>
 
 <meta itemprop="name" content="JacobHooey.com">
@@ -25,6 +25,8 @@
 <link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
 <!-- End Stylesheets -->
 
+	<link rel="icon" type="image/png" href="./css/img/favicon.png">
+	
 <!-- Begin JavaScript -->
 <script type="text/javascript" src="codaSlider/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="codaSlider/jquery.easing.1.3.js"></script>
