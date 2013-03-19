@@ -32,6 +32,10 @@
 <script type="text/javascript" src="codaSlider/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="codaSlider/jquery.coda-slider-2.0.js"></script>
 
+<!-- script for Google Analytics-->  
+<?php include_once("analyticstracking.php") ?>  
+	
+
 <!-- script for CodaSlider content container-->  
 <script type="text/javascript">
     $().ready(function() {
@@ -67,7 +71,7 @@
 
 </head>
 <body>
-  
+
   
 <div id="fb-root"></div>
 
