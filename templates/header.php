@@ -111,9 +111,9 @@
       <?php if ($nav == "thesis") echo "</span>" ?>
     </div>
     <div class="main-nav-left">
-      <?php if ($nav == "programming") echo "<span class='current-page'>" ?>
-          <a href="index.php?action=programming">Programming</a>
-      <?php if ($nav == "programming") echo "</span>" ?>
+      <?php if ($nav == "projects") echo "<span class='current-page'>" ?>
+          <a href="index.php?action=projects">Projects</a>
+      <?php if ($nav == "projects") echo "</span>" ?>
     </div>
     <div class="main-nav-right">
       <?php if ($nav == "contact") echo "<span class='current-page'>" ?>

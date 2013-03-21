@@ -1,0 +1,100 @@
+h2 { font-size:11px;}
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+.tabber { font-size:11px;
+}
+.tabberlive {
+
+}
+
+ul.tabbernav
+{
+
+ padding: 3px 0;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+  display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-right: 3px;
+ border-bottom: none;
+ background: #eeedea;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link {}
+ul.tabbernav li a:visited { }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #f8f8f4;
+
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background: #f8f8f4;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #333;
+ background: #f8f8f4;
+
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border-top:0;
+ background:#f5f5f3;
+  
+
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+ 
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+
+.tabbertab p { padding-bottom:10px; line-height:140%; }
+.tabbertab ul { padding:0; margin:0;}
+.tabbertab ul li { padding:5px 0 6px 0; font-size:11px; }
+.tabbertab ul li { background:url(images/bullet.gif) no-repeat 0 7px; padding-left:16px; border-bottom:1px solid #eeedea;} 

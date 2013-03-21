@@ -34,8 +34,8 @@ switch ( $action ) {
   case 'thesis':
     $nav = "thesis";
     break;
-  case 'programming':
-    $nav = "programming";
+  case 'projects':
+    $nav = "projects";
     break;
   case 'contact':
     $nav = "contact";
