@@ -92,6 +92,9 @@ hr {
   margin: 80px 5% 60px 5%;
 }
 
+img {
+  max-width:100%;
+}
 /***********************************MISC******************************************
  *
  * For class that will be used multiple times
@@ -134,16 +137,16 @@ hr {
 .homepageImage {
   float:left;
   padding:10px 10px 0 0;
-  width:290px; 
+  width:290px;
 }
 .imgLeft  {
   float:left; 
-  padding:20px 20px 20px 0px;
+  margin:0px 20px 20px 0px;
   width:40%;
 }
 .imgRight {
   float:right;
-  padding:0px 0px 20px 20px;
+  margin:0px 20px 20px 20px;
   width:40%; 
 }
 .justify {
@@ -154,14 +157,11 @@ hr {
 .linkgreen {
   color: #004514;
 }
-.programming hr {
-  margin: 25px 0 35px 0;
-}
-
 .textbox {
   background:#3d3d3d;
   padding:5px;
 }
+
 
 /*********************************PAGE LAYOUT***********************************
  *

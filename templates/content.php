@@ -11,8 +11,6 @@
    ****************************************************************************/
 -->
 <?php include("header.php"); ?>
-<?php include("noscript.php"); ?>
-
 
 <div class="coda-slider-wrapper">
   <div class="coda-slider preload" id="coda-slider-1" style="padding:0px">
@@ -32,7 +30,7 @@
   </div><!-- .coda-slider -->
 </div><!-- .coda-slider-wrapper -->
 
-
+<?php include("noscript.php"); ?>
 
 <?php include("social.php"); ?>
 <?php include("footer.php"); ?>
