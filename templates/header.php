@@ -32,6 +32,16 @@
 <script type="text/javascript" src="codaSlider/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="codaSlider/jquery.coda-slider-2.0.js"></script>
 
+	
+<!-- script for Shadow box-->  
+
+	<link rel="stylesheet" type="text/css" href="./js/shadowbox/shadowbox.css">
+	<script type="text/javascript" src="./js/shadowbox/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+	
+	
 <!-- script for Google Analytics-->  
 <?php include_once("analyticstracking.php") ?>  
 	
