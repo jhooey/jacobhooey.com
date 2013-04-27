@@ -8,61 +8,6 @@
    * Created: March 16th, 2012                                                *
    ****************************************************************************/
 
-  /****************************************************************************
-   * Modified: March 26th, 2012                                               *
-   *                                                                          *
-   * Added styling to make the site more readable, as well as tweaked the     *
-   * width of the social networking div to create more space between it and   *
-   * content panel.                                                           *
-   *                                                                          *
-   * Changed the top border of the content panel to Green                     *
-   *                                                                          *
-   * Added Styling for tables                                                 *
-   ****************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 3rd, 2012                                              *
-   *                                                                        *
-   * Added styling to bullet points                                         *
-   * Changed footer default text color to white                             *
-   * Cleaned up the code to make it easier to read                          *
-   * Fixed formatting for newest firefox                                    *
-   **************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 4th, 2012                                              *
-   *                                                                        *
-   * Added styling to Education Content                                     *
-   * Added styling tp the Awards and Scholarship Content                    *
-   **************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 5th, 2012                                              *
-   *                                                                        *
-   * Added styling for thesis section                                       *
-   **************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 7th, 2012                                              *
-   *                                                                        *
-   * Added justify class to create formatting for justified paragraphs      *
-   * Added styling for the <HR> tag                                         *
-   **************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 11th, 2012                                             *
-   *                                                                        *
-   * Added artbox, containerLeft, and containerRight                        *
-   * Reorganized Default Values and Created a MISC section for classes      *
-   *   without a home                                                       *
-   **************************************************************************/
-   
-  /**************************************************************************
-   * Modified: April 16th, 2012                                             *
-   *                                                                        *
-   * Changed HR to be a darker green                                        *
-   * Added Programming Div to lengthen the width of HR tag                  *
-   **************************************************************************/
 
 /*********************************PAGE DEFAULTS********************************
  *
@@ -428,10 +373,138 @@ tr:hover {
   line-height: 24px;
   font-style: italic;
 }
+/*******************************ADMIN PANEL*************************************
+ *
+ * Additional Formatting
+ *
+*******************************************************************************/
+/* Style the body and outer container */
+#admin {
+  background: #FFF;
+  margin: 20px auto;
+  padding: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+} 
+ 
+/* Style the form with a coloured background, along with curved corners and a drop shadow */
+form {
+  margin: 20px auto;
+  padding: 40px 20px;
+  overflow: auto;
+  background: #fff4cf;
+  border: 1px solid #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+ 
+ 
+/* Give form elements consistent margin, padding and line height */
+form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+form ul li {
+  margin: .9em 0 0 0;
+  padding: 0;
+}
+ 
+form * {
+  line-height: 1em;
+}
+ 
+ 
+/* The field labels */
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 15%;
+  padding: .4em 0 0 0;
+  margin: .15em .5em 0 0;
+}
+ 
+ 
+/* The fields */
+input, select {
+  display: block;
+  margin: 0;
+  padding: .4em;
+  width: 80%;
+}
+ 
+input {
+  font-size: .9em;
+}
+.buttons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+ 
+input[type="submit"] {
+  display: inline;
+  margin: 0 20px;
+  width: 12em;
+  padding: 10px;
+  border: 2px solid #7c412b;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: #fff;
+  background: #ef7d50;
+  font-weight: bold;
+  -webkit-appearance: none;
+}
+ 
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+  background: #fff;
+  color: #ef7d50;
+}
+ 
+input[type="submit"]:active {
+  background: #eee;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+ 
 
-
-
-
+/* Status and error boxes */
+.statusMessage, .errorMessage {
+  font-size: .8em;
+  padding: .5em;
+  margin: 2em 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+ 
+.statusMessage {
+  background-color: #2b2;
+  border: 1px solid #080;
+  color: #fff;
+}
+ 
+.errorMessage {
+  background-color: #f22;
+  border: 1px solid #800;
+  color: #fff;
+}
 /*******************************************************************************
  * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
  * Copyright (c) 2009 Niall Doherty

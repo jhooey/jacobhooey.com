@@ -22,8 +22,7 @@
           
           <!--content of the article-->
           <li>
-            <label for="panel_content">Content</label><br /><br /><br />
-            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;">
+            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article">
                 <?php echo htmlspecialchars_decode( $results['article']->panel_content)?>
             </textarea>
       

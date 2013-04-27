@@ -3,7 +3,6 @@
   <head>
     <title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
     
-    <link rel="stylesheet" type="text/css" href="admin.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     
     
@@ -31,5 +30,5 @@
         <div class="statusMessage"><?php echo $results['statusMessage'] ?></div>
 <?php } ?>
         
-    <div id="container">
-        <h1><?php echo $results['pageTitle']?></h1><p align="right">You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
+    <div id="admin">
+        <h1><?php echo $results['pageTitle']?></h1>
