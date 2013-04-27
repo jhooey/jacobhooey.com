@@ -28,9 +28,9 @@
 	<link rel="icon" type="image/png" href="./css/img/favicon.png">
 	
 <!-- Begin JavaScript -->
-<script type="text/javascript" src="codaSlider/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="codaSlider/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="codaSlider/jquery.coda-slider-2.0.js"></script>
+<script type="text/javascript" src="./js/codaSlider/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="./js/codaSlider/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./js/codaSlider/jquery.coda-slider-2.0.js"></script>
 
 	
 <!-- script for Shadow box-->  
