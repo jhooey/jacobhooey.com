@@ -1,9 +1,0 @@
-[28-Jul-2011 15:37:56] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:38:15] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:38:29] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:38:34] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:39:01] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:39:13] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:39:40] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 15:39:41] PHP Fatal error:  Call to undefined method Arras_Widget_Tag_Cloud::WP_Widget_Tag_Cloud() in /home6/jacobhoo/public_html/wp-content/themes/arras/library/widgets.php on line 404
-[28-Jul-2011 17:50:31] PHP Fatal error:  Cannot redeclare wp_pagenavi() (previously declared in /home6/jacobhoo/public_html/wp-content/plugins/wp-pagenavi/core.php:12) in /home6/jacobhoo/public_html/wp-content/themes/fog/functions.php on line 150
