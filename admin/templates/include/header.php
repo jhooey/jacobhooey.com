@@ -13,7 +13,7 @@
     <script src="../js/codemirror/vbscript.js"></script>
     <script src="../js/codemirror/htmlmixed.js"></script>
 
-    <style>.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}</style>
+    <style>.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;height:800px;width:100%;}</style>
     
   </head>
   <body>

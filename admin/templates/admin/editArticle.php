@@ -35,7 +35,10 @@
           <!--content of the article-->
           <li>
             <label for="panel_content">Content</label><br /><br /><br />
-            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;"><?php echo htmlspecialchars_decode( $results['article']->panel_content)?></textarea>
+            <textarea name="panel_content" id="panel_content" placeholder="The HTML content of the article" required maxlength="1000000" style="height: 30em;">
+                <?php echo htmlspecialchars_decode( $results['article']->panel_content)?>
+            </textarea>
+      
           </li>
           
         </ul>
@@ -46,7 +49,19 @@
         </div>
  
       </form>
+ <script>
+      // Define an extended mixed-mode that understands vbscript and
+      // leaves mustache/handlebars embedded templates in html mode
+      var mixedMode = {
+        name: "htmlmixed",
+        scriptTypes: [{matches: /\/x-handlebars-template|\/x-mustache/i,
+                       mode: null},
+                      {matches: /(text|application)\/(x-)?vb(a|script)/i,
+                       mode: "vbscript"}]
  
+      };
+      var editor = CodeMirror.fromTextArea(document.getElementById("panel_content"), {mode: mixedMode, lineWrapping: true, tabMode: "indent"});
+    </script>
           <!-- delete the current article using its content_id-->
 <?php if ( $results['article']->content_id ) { ?>
       <p><a href="admin.php?action=deleteArticle&amp;articleId=<?php echo $results['article']->content_id  ?>" onclick="return confirm('Delete This Article?')">Delete This Article</a></p>
