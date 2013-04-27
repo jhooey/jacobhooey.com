@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <link rel="stylesheet" type="text/css" href="admin.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    
+    
     <link rel="stylesheet" href="../js/codemirror/codemirror.css">
     <link rel="stylesheet" href="../js/codemirror/docs.css">
     
@@ -17,4 +21,15 @@
     
   </head>
   <body>
+      
+<?php if ( isset( $results['errorMessage'] ) ) { ?>
+        <div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
+<?php } ?>
+ 
+ 
+<?php if ( isset( $results['statusMessage'] ) ) { ?>
+        <div class="statusMessage"><?php echo $results['statusMessage'] ?></div>
+<?php } ?>
+        
     <div id="container">
+        <h1><?php echo $results['pageTitle']?></h1><p align="right">You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>

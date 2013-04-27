@@ -1,18 +1,6 @@
 <?php include "templates/include/header.php" ?>
- 
-      <div id="adminHeader">
-		<h2>JacobHooey.com Admin Panel</h2>
-        <p align="right">You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
-      </div>
- 
-      <h1><?php echo $results['pageTitle']?></h1>
- 
       <form action="admin.php?action=<?php echo $results['formAction']?>" method="post">
         <input type="hidden" name="articleId" value="<?php echo $results['article']->content_id ?>"/>
- 
-<?php if ( isset( $results['errorMessage'] ) ) { ?>
-        <div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
-<?php } ?>
  
         <ul>
          <!-- This will be the title used in the secondary navigation of the website -->
@@ -64,13 +52,7 @@
     </script>
           <!-- delete the current article using its content_id-->
 <?php if ( $results['article']->content_id ) { ?>
-      <p><a href="admin.php?action=deleteArticle&amp;articleId=<?php echo $results['article']->content_id  ?>" onclick="return confirm('Delete This Article?')">Delete This Article</a></p>
+      <p><a href="admin.php?action=deleteArticle&amp;articleId=<?php echo $results['article']->content_id  ?>" onclick="return confirm('Delete This Article?');">Delete This Article</a></p>
 <?php } ?>
  
 <?php include "templates/include/footer.php" ?>
-
-<?php if(get_magic_quotes_gpc())
-	echo "Magic quotes are enabled";
-else
-	echo "Magic quotes are disabled";?>
-	
