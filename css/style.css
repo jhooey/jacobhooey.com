@@ -291,7 +291,7 @@ tr:nth-child(odd) {
 }
  
 tr:nth-child(even) {
-  background: #666666;
+  background: #EAEAEA;
 }
  
 tr:hover {
@@ -299,7 +299,56 @@ tr:hover {
   cursor: pointer;
 }
 
+.list {
+  margin:auto;
+  width: 95%;
+  float:left;
+  
+}
+ 
+.row, .header-row,
+.row-odd,
+.row-even
+{
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+  float:left;
+  width:100%;
+}
+.narrow-column,
+.wide-column
+{
+    float:left;
+}
+.narrow-column {
+    width:10%;
+}
+.wide-column {
+    width:70%;
+}
 
+
+.header-row {
+  background: #00942C;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  cursor: default;
+}
+
+.row-odd {
+  background: #999999;
+}
+ 
+.row-even {
+  background: #EAEAEA;
+}
+ 
+.row:hover, .row-odd:hover, .row-even:hover {
+  background: #777777;
+  cursor: pointer;
+}
 /********************************EDUCATION**************************************
  *
  * Used to format the divs in the education section
@@ -383,17 +432,28 @@ tr:hover {
   background: #FFF;
   margin: 20px auto;
   padding: 20px;
+  float:left;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 } 
- 
+#admin a {
+  color: #00760E;
+}
+#admin a:hover {
+  color: #00922a;
+}
+.CodeMirror {
+    border: 1px solid black;
+    width:100%;
+}
+    
 /* Style the form with a coloured background, along with curved corners and a drop shadow */
 form {
   margin: 20px auto;
   padding: 40px 20px;
   overflow: auto;
-  background: #fff4cf;
+  background: #EAEAEA;
   border: 1px solid #666;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px; 
@@ -454,7 +514,7 @@ input[type="submit"] {
   margin: 0 20px;
   width: 12em;
   padding: 10px;
-  border: 2px solid #7c412b;
+  border: 2px solid #357A2A;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px; 
   border-radius: 5px;
@@ -462,7 +522,7 @@ input[type="submit"] {
   -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
   box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
   color: #fff;
-  background: #ef7d50;
+  background: #00942C;
   font-weight: bold;
   -webkit-appearance: none;
 }
@@ -470,7 +530,7 @@ input[type="submit"] {
 input[type="submit"]:hover, input[type="submit"]:active {
   cursor: pointer;
   background: #fff;
-  color: #ef7d50;
+  color: #00942C;
 }
  
 input[type="submit"]:active {

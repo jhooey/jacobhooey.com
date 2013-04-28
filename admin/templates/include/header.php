@@ -5,7 +5,6 @@
     
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     
-    
     <link rel="stylesheet" href="../js/codemirror/codemirror.css">
     <link rel="stylesheet" href="../js/codemirror/docs.css">
     
@@ -16,7 +15,8 @@
     <script src="../js/codemirror/vbscript.js"></script>
     <script src="../js/codemirror/htmlmixed.js"></script>
 
-    <style>.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;height:800px;width:100%;}</style>
+    <!--The height styling does not work if put in the stylesheet-->
+    <style>.CodeMirror {height:600px;}</style>
     
   </head>
   <body>
