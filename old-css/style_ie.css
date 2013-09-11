@@ -1,0 +1,514 @@
+  /****************************************************************************
+   * Title: style_ie.css                                                      *
+   * Author: Jacob Hooey                                                      *
+   * URL: http://www.jacobhooey.com                                           *
+   * Description: This is the internet explorer stylesheet for jacobhooey.com,*
+   *              it contains all styling for the entire site. It also        *
+   *              includes changes that make the site look proper in IE       *
+   *                                                                          *
+   *              added CHANGED to elements that are IE specific              *
+   * Created: March 26th, 2012                                                *
+   ****************************************************************************/
+   
+  /**************************************************************************
+   * Modified: April 3rd, 2012                                              *
+   *                                                                        *
+   * Added styling to bullet points                                         *
+   * Changed footer default text color to white                             *
+   * Cleaned up the code to make it easier to read                          *
+   **************************************************************************/
+
+  /**************************************************************************
+   * Modified: April 4th, 2012                                              *
+   *                                                                        *
+   * Added styling to Education Content                                     *
+   **************************************************************************/
+   
+  /**************************************************************************
+   * Modified: April 5th, 2012                                              *
+   *                                                                        *
+   * Added missing styling compared with style.css                          *
+   **************************************************************************/
+   
+  /**************************************************************************
+   * Modified: April 8th, 2012                                              *
+   *                                                                        *
+   * fixed navigation link issue: moving to wrong location when visited     *
+   **************************************************************************/
+ 
+  /**************************************************************************
+   * Modified: April 11th, 2012                                             *
+   *                                                                        *
+   * Added artbox, containerLeft, and containerRight                        *
+   * Reorganized Default Values and Created a MISC section for classes      *
+   *   without a home                                                       *
+   **************************************************************************/
+
+  /**************************************************************************
+   * Modified: April 16th, 2012                                             *
+   *                                                                        *
+   * Changed HR to be a darker green                                        *
+   * Added Programming Div to lengthen the width of HR tag                  *
+   **************************************************************************/
+   
+  /**************************************************************************
+   * Modified: April 17th, 2012                                             *
+   *                                                                        *
+   * made many changes to get similar results as the firefox browser        *
+   **************************************************************************/
+
+/*********************************PAGE DEFAULTS******************************
+ *
+ * Layout properties that effect the entire page or 
+ * properties that can be applied to any part of the page
+ *
+ *
+ ****************************************************************************/
+
+html, body {
+  background: #333333;
+  color: black;
+  font-family:"Arial",sans-Serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+
+hr {
+  color:#004514;
+  background-color: #004514;
+  height: 3px;
+  margin: 80px 5% 60px 5%;
+}
+img {
+  border-style: none;
+}
+/***********************************MISC**************************************
+ *
+ * For class that will be used multiple times
+ *
+******************************************************************************/
+.artbox {
+  width:90%;
+  padding:20px 30px 20px 30px;
+  border-width: .115em;
+  border-style: solid;
+  border-color: #004514;
+}
+
+.center {
+  text-align:center;
+}
+.containerLeft {
+  float:left;
+  margin: 20px 0 10px 0;
+  width:50%;
+}
+
+.containerRight {
+  float:right;
+  margin: 20px 0 10px 0;
+  width:50%;
+}
+.green {
+  color:#00942c;         /*used to apply green text color anywhere in the site*/
+}
+.hidden {
+  display:none;
+}
+.homepage {
+  float:right;
+  padding-top: 10px;
+  width:67%;
+}
+.homepageImage {
+  float:left;
+  margin-top:20px; 
+  margin-right: 10px;
+  width:260px; 
+}
+.imgLeft  {
+  float:left; 
+  margin:20px 20px 20px 0px;
+  width:40%;
+}
+.imgRight {
+  float:right;
+  margin:0px 0px 20px 20px;
+  width:40%; 
+}
+.justify {
+  text-align: justify; 
+  margin-left: 15%; 
+  margin-right: 15%;
+}
+.linkgreen {
+  color: #004514;
+}
+.programming hr {
+  margin: 25px 0 35px 0;
+}
+
+.textbox {
+  background:#3d3d3d;
+  padding:5px;
+}
+
+/*********************************PAGE LAYOUT***********************************
+ *
+ * This is where the layout for the entire site is defined. The containers are 
+ * listed in the order in which they should be called in the html document
+ *
+ *
+ ******************************************************************************/
+.page-container {
+  margin-left:100px;          /*CHANGED*/
+  margin-top: 75px;  /*makes sure the logo is not glued to the top of the page*/
+  width: 1044px;    /*CHANGED*/
+  position:relative;
+}
+
+.header {
+  font-family:"Arial",sans-Serif;
+  height: 100px;
+  width: 760px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-nav {
+  background: #333333;
+  font-family: 'Alegreya SC', serif;                /*use a unique google font*/
+  padding:0;
+  padding-bottom:8px;
+  position: absolute; /*CHANGED*/
+  display: block;
+  right:0;
+  top:0;
+  width:280px; /*CHANGED*/
+}
+   /*Positions the social networking icons to the far right and out of the way*/
+.social-network {
+  /*put a border under the navigation menu */
+  float: right;
+  overflow:hidden;
+  padding-bottom:40px;
+  padding-top:140px;
+  width: 80px;
+}
+
+.footer {
+  clear: both;              /* this makes sure the footer is always by itself */
+  margin-top:0px; /* The footer won't be in contact with the other containers*/
+  text-align:justify;
+  text-align-last: justify;
+  width: 800px;
+  margin-left: 100px; /*CHANGED*/
+  
+}
+/********************************HEADER*****************************************
+ * Use a <span> tag to create both the green and white text
+ ******************************************************************************/
+.header h1 {
+  font-size:3.6em;
+  line-height:90%;
+  margin: 0px;
+  padding: 0px;
+  padding-left:25px;
+}
+.header h2 {
+  margin: 0px;
+  padding: 0px;
+}
+   /* Make sure the logo links back to the main page (without using an image) */
+.header a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+/****************************NAVIGATION*****************************************
+ *
+ * Using align properties and <div> tags a tree like nagation menu is created, 
+ * (where the links alternate alignment from a center line)
+ *
+*******************************************************************************/
+.main-nav a {
+  font-size: 22px;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* A container is used for each individual link in the navigation menu
+ * and to get the desired layout the containers have to be alternated
+ */
+.main-nav-left {
+  text-align:right;
+  width:100%;
+}
+.main-nav-left a:link {
+  margin-right: 50%; 
+}
+.main-nav-left a:visited {
+  margin-right: 50%; 
+}
+.main-nav-right {
+  text-align:left;
+  width:100%;
+}
+.main-nav-right a:link {
+  margin-left: 50%;  
+}
+.main-nav-right a:visited {
+  margin-left: 50%;  
+}
+.current-page { /*create special formatting to indicate the current page*/
+  border-bottom-left-radius: 5px 5px;     /*round out the left corners */
+  border-top-left-radius: 5px 5px;    
+  background-image: url('./img/nav-hatched-reverse.jpg');
+  display: block;
+}
+/********************************FOOTER*****************************************
+ *
+ * used the p:after to create a set of properties that result in text-align 
+ * justify on only one line
+ *
+*******************************************************************************/
+.footer {
+  color: #ffffff;
+  padding-top:20px;
+}
+
+
+.footer a {
+  font-size:18px;
+  Text-decoration: none;
+}
+.footer a:hover {
+  Text-decoration: underline;
+}
+
+.footer p:after {
+  content: ".";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+/********************************TABLES*****************************************
+ *
+ * Used mainly to style the skills table in the resume section
+ *
+*******************************************************************************/
+
+
+/* Tables */
+ 
+table {
+  border-collapse: collapse;
+  margin-bottom:15px;
+  margin-left:15px;
+  width: 95%;
+}
+ 
+tr, th, td {
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+  border-bottom-width: .3px;
+  border-bottom-style: solid;
+  border-bottom-color: #004514;
+}
+ 
+
+/********************************EDUCATION**************************************
+ *
+ * Used to format the divs in the education section
+ *
+*******************************************************************************/
+
+.education {
+  margin:auto;
+  padding-top: 15px;
+  width:99%;
+}
+
+.education p {
+  padding: 10px;
+  padding-top:0px;
+}
+
+.education .recent {
+  background:#858585;
+  float:left;
+  width:25%;
+}
+
+.education .description {
+  background:#707070;
+  float:right;
+  width:73%;
+}
+
+.education .past {
+  clear:both;
+}
+
+.education .pastLeft {
+  background:#575757;
+  border-bottom-left-radius: 5px 5px;
+  -moz-border-bottom-left-radius: 5px 5px;
+  float:left;
+  width:48%;
+}
+
+.education .pastRight {
+  background:#3d3d3d;
+  border-bottom-right-radius: 5px 5px; 
+  -moz-border-bottom-right-radius: 5px 5px;
+  float:right;
+  width:50%;
+}
+
+/********************************AWARDS****************************************
+ *
+ * Set any special formatting for the Awards and Scholarship section under resume
+ *
+*******************************************************************************/
+
+.awards {
+  font-family:Georgia,"Times new Roman",Serif;
+}
+
+.awards h4 {
+  padding-bottom: 0;
+}
+
+.awards blockquote {
+  padding: 0 10px 15px 35px;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+}
+
+/*******************************************************************************
+ * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+ * Copyright (c) 2009 Niall Doherty
+ * This plugin available for use in all personal or commercial projects under 
+ * both MIT and GPL licenses.
+********************************************************************************/
+
+/*The original code has been severely modified from the original to better suit
+  my needs */
+  
+  
+.coda-slider-wrapper { 
+  float:left;
+  width: 760px;
+}
+
+.panel {
+        /*put a border under the navigation menu */
+  border-top-width: .2em;
+  border-top-style: solid;
+  border-top-color: #00942c;
+  background: #CDCDCD;
+  text-align:justify;
+  
+   border-bottom-left-radius: 5px 5px;     /*round out the left corners */
+   border-bottom-right-radius: 5px 5px;     /*round out the left corners */
+}
+   /*change the bullet points in the content section of the website*/
+.panel li {
+  background: url('/img/bullet.gif') no-repeat left;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.panel a {
+  color: #004514;
+  font-weight: bold;
+}
+.panel a:hover {
+  color: #004514;
+  font-weight: bold;
+}
+ 
+
+.coda-slider, .coda-slider .panel {
+  width:934px;    /*CHANGED*/                 /* Change the width of the entire slider*/
+  float:left;
+  overflow: hidden;   /*This makes it that the panels only show one at a time */
+  padding-bottom:0px;
+} 
+.coda-slider h2 { /*Format the content headers*/
+ line-height:0px;padding:0; display:none;
+}
+
+/* Tab nav */
+.coda-nav ul li a.current { 
+  background-image: url('./img/sec-nav-current.jpg');
+}
+  
+/* Panel padding */
+.coda-slider .panel-wrapper { 
+  float: left; 
+  margin-top:10px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px; 
+  padding-top:0px;
+  width:904px;          /* Change the width of the entire slider*/
+}
+.coda-slider preload {
+  padding:0px;
+  margin:0px;
+}
+/* Preloader */
+.coda-slider p.loading { 
+  padding: 20px; 
+  text-align: center 
+}
+.coda-nav {
+  padding:0px;
+  margin:0px;
+}
+
+/* Format the container for the navigation menu */
+.coda-nav ul {  
+  margin-left: 0px;  
+  padding:0px; 
+  width: 750px;  
+  float:left;  /*CHANGED*/
+}
+  
+.coda-nav ul li { 
+  display: inline; 
+    
+}
+  
+.coda-nav ul li a {   
+  border-top-right-radius: 5px 5px;               /*create rounded top corners*/
+  border-top-left-radius: 5px 5px;
+  background-image: url('./img/sec-nav.jpg');       /*used for non active tabs*/
+  color: #fff;
+  display: block; 
+  float: left; 
+  font-family: 'Alegreya SC', serif;                /*use a unique google font*/   
+  margin-right: 1px;                             
+  padding: 5px 20px;        /*play with the sizes of the navigation items */
+  text-decoration: none; 
+  
+
+}
+
+/*******************************END OF******************************************
+ * jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+ ******************************************************************************/
