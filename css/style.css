@@ -24,11 +24,11 @@
 	background-color:blue;
 }
 #roche-lobe-right {
-	top:200px;
+	top:202px;
     left: auto;
     right: 0;
-    width: 200px;
-    height: 200px;
+    width: 196px;
+    height: 196px;
     -moz-border-radius: 250px 250px 250px 0;
          border-radius: 250px 250px 250px 0;
     -webkit-transform: rotate(45deg);
@@ -38,5 +38,17 @@
             transform: rotate(45deg);
 }
 #zero-age-main-sequence-star {
+    position: relative;
+    width: 600px;
+    height: 600px;
 	
+	background-color:red;
+    -moz-border-radius: 340px 340px 340px 340px;
+         border-radius: 340px 340px 340px 340px;
+         
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
