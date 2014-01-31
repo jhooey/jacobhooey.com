@@ -1,0 +1,42 @@
+#roche-lobe {
+    position: relative;
+    width: 975px;
+    height: 600px;
+}
+
+#roche-lobe-left,
+#roche-lobe-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    border: 5px dashed red;
+    -moz-border-radius: 340px 340px 0 340px;
+         border-radius: 340px 340px 0 340px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+#roche-lobe-left {
+	background-color:blue;
+}
+#roche-lobe-right {
+	top:200px;
+    left: auto;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 250px 250px 250px 0;
+         border-radius: 250px 250px 250px 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+#zero-age-main-sequence-star {
+	
+}
