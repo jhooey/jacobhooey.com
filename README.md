@@ -1,10 +1,11 @@
 #JacobHooey.com my Resume Website
 
 URL: http://www.jacobhooey.com
+  
+Email:jacob@gmail.com 
 
-By Pompous Panda Productions    
-website: www.pompouspanda.com    
-Email:jacob@pompouspanda.com  
+NOTE: the code that is currently being hosted on jacobhooey.com is stored in the "CMS-Version" branch
+
 
 ##Description
 **Server**:    
